@@ -17,6 +17,7 @@ dist/
 build/
 
 .vscode/
+.next/
 
 .env
 .env.local
