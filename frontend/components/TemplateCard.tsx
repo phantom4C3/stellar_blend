@@ -81,7 +81,7 @@ const TemplateCard: React.FC<{ templateId: string }> = ({ templateId }) => {
     );
   if (!pool) return null;
 
-  const renderStars = (rating: number) => {
+  const renderStars = () => {
     const maxStars = 5;
     return Array.from({ length: maxStars }, (_, index) => (
       <span
